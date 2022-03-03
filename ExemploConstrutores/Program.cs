@@ -10,6 +10,9 @@ namespace ExemploConstrutores
 
         static void Main(string[] args)
         {
+            Matematica m = new Matematica(10, 20);
+            m.Somar();
+            
             // Operacao op = Calculadora.Somar;
             // op(10,10);
 

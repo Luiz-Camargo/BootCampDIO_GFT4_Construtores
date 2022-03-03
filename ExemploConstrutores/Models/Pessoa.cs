@@ -20,7 +20,7 @@ namespace ExemploConstrutores.Models
 
         public void Apresentar()
         {
-            System.Console.WriteLine($"Olá, meu nome é {nome} {sobrenome}");
+            Console.WriteLine($"Olá, meu nome é {nome} {sobrenome}");
         }
     }
 }
